@@ -5,9 +5,6 @@ const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp')
 const messageContainer = document.querySelector(".container")
 
-// Audio that will play on receiving messages
-var audio = new Audio('ting.mp3');
-
 // Function which will append event info to the contaner
 const append = (message, position)=>{
     const messageElement = document.createElement('div');
